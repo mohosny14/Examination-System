@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExaminationSys">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-O7TVS7O:DESKTOP-O7TVS7O\xps">
+          <Created>2022-09-16T19:10:17.3912201+02:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-O7TVS7O</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-O7TVS7O:instructor">
+          <Created>2022-09-17T01:54:42.135011+02:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-O7TVS7O</Server>
+          <UserName>instructor</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ExaminationSys</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-O7TVS7O:student">
+          <Created>2022-09-17T02:04:38.45081+02:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-O7TVS7O</Server>
+          <UserName>student</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ExaminationSys</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="DESKTOP-O7TVS7O:training manager">
+          <Created>2022-09-17T02:07:23.8723614+02:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-O7TVS7O</Server>
+          <UserName>training manager</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ExaminationSys</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AllTestData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AllTestData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BranchTrackIntakeSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BranchTrackIntakeSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CompareAnswers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CompareAnswers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateStructure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateStructure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CrsSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CrsSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DisplaySearch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DisplaySearch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ExamOperations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ExamOperations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InsSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="makeExamSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>makeExamSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Permissions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Permissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QuestionSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QuestionSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="StudentSP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>StudentSP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TestInstructorQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TestInstructorQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TestStudentQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TestStudentQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TestTmanagerQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TestTmanagerQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Triggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Triggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-O7TVS7O:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-O7TVS7O</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Views.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

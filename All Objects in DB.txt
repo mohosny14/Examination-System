@@ -1,0 +1,74 @@
+			===== Stored Procedure ====
+
+1- addBranchSP 				  -- Add Branch
+2- updateBranchNameSP			  -- update Branch Name
+3- addTrackSP				  -- add Track
+4- updateTrackNameSP			  -- update Track Name
+5- addIntakeSP				  -- add Intake
+6- updateIntakeNumSP			  -- update Intake Number
+7- addCourseSP				  -- add Course (Crs)
+8- updateCrsTitleSP			  -- update Crs Title
+9- updateCrsDescSP			  -- update Crs Description
+10- updateCrsMinMaxDegreeSP		  -- update Crs ( Min & Max ) Degree
+11- updateCrsInsIdSP			  -- update Crs Instructor Id
+12- deleteCourseSP			  -- delete Course
+13- ShowExamSP				  -- proc for displaying Exam for Std
+14- SearchOnStdSP			  -- for searching on Std with different options.
+15- SearchOnExamSP			  -- for searching on Exam with different options.
+16- updateQstDegreeSP			  -- for enabling instructor to update specific QstDegree, then Update Exam Result.
+17- AnswerThisQstSP			  -- SP for submit one answer only for student in exam.
+18- SubmitExamSP 			  -- SP to update exam result for student.
+19- showTxtAnswerSP			  -- show Txt Answer for Instructor to review
+20- addInstructorSP			  -- add Instructor
+21- updateInsNameSP			  -- update Instructor Name
+22- updateInsUserNameSP			  -- update Instructor UserName
+23- updateInsPasswordSP			  -- update Instructor Password
+24- deleteInstructorSP			  -- delete Instructor
+25- addExamSP				  -- Create Exam by Instructor
+26- addQstRandomlySP 			  -- Build Exam Randomly
+27- addQstManuallySP			  -- Build Exam Manually
+28- addStdForExam			  -- allow std for doing Exam after validate that Std and Ins are at the same Crs(Student=>one by one)
+29- getStdsId 				  -- Display Students IDs For a specific Course (For Instructor)
+30- proc_addMCQ				  -- SP to Add MCQuestion
+31- proc_UpdateMCQ			  -- SP to Update MCQuestion
+32- proc_DeleteMCQ			  -- SP to Delete MCQuestion
+33- proc_addTFQ  			  -- SP to Add TFQuestion
+34- proc_UpdateTFQ			  -- SP to Update TfQuestion
+35- proc_DeleteTFQ 			  -- SP to Delete TFQuestion
+36- proc_addTxtQuestion			  -- SP to Add TxtQuestion
+37- proc_UpdateTxtQuestion 		  -- SP to Update txtQuestion
+38- proc_DeleteTxtQuestion		  -- SP to Delete TxtQuestion
+39- addStdPersonalInfoSP		  -- add Personal Information for Student
+40- addBranchDetailsSP			  -- add Information For Student (BranchID, TrackID, etc)
+41- updateStdNameSP			  -- update Student Name
+42- updateStdEmailSP			  -- update Student Email
+43- updateStdPasswordSP			  -- update Student Password
+44- auth				  -- to display Stored Procedures within Authorization
+
+
+	   		  ======= Function ====
+
+
+1- CompareAnswer        	          -- Measure Similarity between two strings.
+2- FN_CalcExamResult			  -- for calc final result of the exam for the student.
+
+
+	   		 ======= Triggers ====
+
+
+1- checkStdAnswer			  -- Trigger for checking the StdAnswer and update StdAnswers Table with the degree of the Question.
+
+	    		 ====== Views =======
+
+
+1- CrsExamPerYearVE			  -- Course Exam Per Year
+2- ForReviewTxtQstVE			  -- View for displaying StdtxtQst to enable instructor to review them and update marks manually.
+3- MCQExamContentVE			  -- for displaying MCQ for specific Exam, called by ShowExamSP
+4- TFQExamContentVE			  -- for displaying TFQ for specific Exam, called by ShowExamSP
+5- TXQExamContentVE			  -- for displaying TXQ for specific Exam, called by ShowExamSP
+6- StdInfoVE				  -- Called by SearchOnStdSP which used for searching
+7- ExamQstInfoVE			  -- Called by SearchOnStdSP which used for searching
+8- 
+
+
+

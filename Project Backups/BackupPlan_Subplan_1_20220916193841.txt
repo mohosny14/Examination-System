@@ -1,0 +1,19 @@
+Microsoft(R) Server Maintenance Utility (Unicode) Version 15.0.2000
+Report was generated on "DESKTOP-O7TVS7O".
+Maintenance Plan: BackupPlan
+Duration: 00:00:01
+Status: Succeeded.
+Details:
+Back Up Database (Differential) (DESKTOP-O7TVS7O)
+Backup Database on Local server connection
+Databases: ExaminationSys
+Type: Differential
+Append existing
+Task start: 2022-09-16T19:38:40.
+Task end: 2022-09-16T19:38:41.
+Success
+Command:BACKUP DATABASE [ExaminationSys] TO  DISK = N''D:\ITI\SQL\Project\Project Backups\ExaminationSys_backup_2022_09_16_193840_8340638.bak'' WITH  DIFFERENTIAL , NOFORMAT, NOINIT,  NAME = N''ExaminationSys_backup_2022_09_16_193840_8340638'', SKIP, REWIND, NOUNLOAD,  STATS = 10
+
+GO
+
+
